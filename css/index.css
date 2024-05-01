@@ -1,0 +1,161 @@
+html{
+	background-color: black;
+	background: url(../4.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.content{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 10px;
+	height: auto;
+	width: 700px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.content p, ul{
+font-family: Calisto MT;
+font-size: 12px;
+letter-spacing: 1px;
+
+}
+
+.content a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.content :root {
+	--yellowish: #eeb14f;
+	--dark-purple: #263547;
+}
+
+
+.header {
+	display: flex;
+	padding: 20px;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #263547;
+	height: auto;
+	width: auto;
+}
+
+
+
+.name {
+
+	font-family: Forte;
+	color: #eeb14f;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+
+.banner{
+
+	font-family: Rockwell;
+	font-size: 20px;
+}
+
+
+.content-body {
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper {
+	margin: 20px;
+}
+
+.section-left {
+	flex: 2;
+	background-color: #eeb14f; 
+}
+
+.section-left ul {
+	list-style: none;
+	margin-left: -10px;
+	text-transform: capitalize;
+	font-size: 12px;
+	font-family: Rockwell;
+	font-weight: normal;
+
+}
+
+h2{
+
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: Forte;
+	letter-spacing: 2px;
+}
+
+h3{
+	text-transform: capitalize;
+	font-size: 0.7em;
+	font-family: Calisto MT;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-family: Calisto MT;
+	font font-weight: normal;
+	font size: 0.8em
+	margin top: -10px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+
+.section-right {
+	flex: 2;
+}
+
+
+p{
+	font-family: Century Gothic;
+}
+
+.profile_pic img {
+	float: left;
+	height: 140px;
+	width: 140px;
+	border-radius: 100%;
+	background-color: #fff;
+	margin-right: 20px;
+	
+}
+
+
+.button{
+  position: absolute;
+  top:10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn{
+	background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 10px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}
