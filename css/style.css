@@ -39,6 +39,15 @@ audio{
 header{
 	background-color: black;
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
+	background-repeat: repeat-x;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	background-color: black;
+	background-image:  url(../images/background.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -153,3 +162,150 @@ ul li.active a{
 	color: #000;
 }
 
+
+
+.about{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+	height: auto;
+	width: 700px;
+	margin: 100px auto;
+	flex-direction: row;
+	display: flex;
+
+}
+
+.image img {
+	float: center;
+	height: 400px;
+	width: 200px;
+	background-color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section-left {
+	flex: 2;
+}
+
+
+.section-right {
+	flex: 1;
+}
+
+.wrapper {
+	margin: 10px;
+}
+
+.context{
+	color: white;
+	padding: 50px;
+	height: auto;
+	width: 400px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.context h1{
+	font-size: 24px; 
+	font-family: forte;
+}
+
+
+.context h4{
+	font-size: 15px; 
+	font-style: italic;
+}
+
+
+.background{
+	background-color: rgba(7, 6, 6, 0.747);
+	padding: 10px;
+	height: auto;
+	width: 1050px;
+	margin: 100px auto;
+}
+
+
+.sheet{
+	background-color: #eeb14f;
+	color: white;
+	padding: 10px;
+	height: auto;
+	width: 1000px;
+	margin: 20px auto;
+	flex-direction: row;
+	display: flex;
+
+}
+
+
+.picture img {
+	float: center;
+	height: 150px;
+	width: 150px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin-top: 100px;
+
+}
+
+.wrap {
+	margin: 50px auto;
+	padding: 5px;
+	height: auto;
+	width: 400px;
+}
+
+.format-one {
+	flex: 2;
+}
+
+.format-one .picture img{
+	margin-left: 150px;
+}
+
+.format-two {
+	flex: 2;
+	margin-top: -110px;
+}
+
+.format-two .index{
+	margin: 110px;
+	margin-left:-200px;
+	margin-bottom:-120px;
+	display: flex;
+	flex-direction: column;
+}
+
+.format-three {
+	flex: 3;
+}
+
+.format-three .picture img{
+	margin-left: -150px;
+}
+
+.format-three .index{
+	margin-left:-500px;
+	display: flex;
+	flex-direction: column;
+}
+
+.index{
+	padding: 10px;
+	margin: 20px;
+	margin-top: -40px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.index h1{
+	font-size: 20px; 
+	font-family: forte;
+}
