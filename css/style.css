@@ -25,7 +25,6 @@ h3{
 	margin top: -10px;
 	font-style: italic;
 	letter-spacing: 1px;
-
 }
 
 audio{
@@ -37,9 +36,7 @@ audio{
 
 
 header{
-	background-color: black;
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
-	background-repeat: repeat-x;
+	background-color:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -47,7 +44,9 @@ header{
 
 body{
 	background-color: black;
-	background-image:  url(../images/background.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -224,6 +223,7 @@ ul li.active a{
 
 .background{
 	background-color: rgba(7, 6, 6, 0.747);
+	border-radius: 5px;
 	padding: 10px;
 	height: auto;
 	width: 1050px;
@@ -233,6 +233,7 @@ ul li.active a{
 
 .sheet{
 	background-color: #eeb14f;
+	border-radius: 5px;
 	color: white;
 	padding: 10px;
 	height: auto;
@@ -243,6 +244,10 @@ ul li.active a{
 
 }
 
+a:hover{
+	background-color: #8CDAD3;
+	transition: .5s ease;
+}
 
 .picture img {
 	float: center;
@@ -253,6 +258,7 @@ ul li.active a{
 	margin-top: 100px;
 
 }
+
 
 .wrap {
 	margin: 50px auto;
@@ -308,4 +314,100 @@ ul li.active a{
 .index h1{
 	font-size: 20px; 
 	font-family: forte;
+}
+
+.contact{
+	background-color: rgba(8, 8, 8, 0.747);
+	border-radius: 5px;
+	padding: 10px;
+	height: auto;
+	width: 1050px;
+	margin: 100px auto;
+}
+
+
+/* Style inputs */
+.container h2{
+	color: #fff;
+}
+
+.container label{
+	color: #fff;
+}
+
+.container p{
+	color: #fff;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 5px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #eeb14f;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #ebebeb;
+  }
+  
+  /* Style the container/contact section */
+.contact-body{
+	box-sizing: border-box;
+}
+
+  .container {
+	border-radius: 5px;
+
+	padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: left;
+	width: 40%;
+	margin-top: 50px;
+  }
+
+  .column img{
+	margin-left: 60px;
+	height: 500px;
+
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+
+
+
+  .footer{
+	background-color: rgba(8, 8, 8, 0.747);
+	border-radius: 5px;
+	padding: 10px;
+	height: auto;
+	width: auto;
+	margin: 100px auto;
 }
