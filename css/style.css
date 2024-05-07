@@ -1,5 +1,5 @@
 @font-face {
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	src: url(./assets/font/gothic/gothic.woff);
  }
 
@@ -7,7 +7,9 @@
 	
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
+	font-family: century-gothic, sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
 }
 
 @import url(https://db.onlinewebfonts.com/c/380d7d586b8246b3f65a92e2b82e65c4?family=Forte+W01);
@@ -257,14 +259,14 @@ ul li.active a{
 .content h4{
 	color: #eeb14f;
 	font-size: 12px; 
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	font-weight: normal;
 }
 
 .content p{
 	color: #fff;
 	font-size: 12px; 
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	font-weight: normal;
 }
 
