@@ -19,6 +19,8 @@ html{
 
 @import url(https://db.onlinewebfonts.com/c/380d7d586b8246b3f65a92e2b82e65c4?family=Forte+W01);
 
+@import url(https://db.onlinewebfonts.com/c/ccd91c89260f4e263cf7c7c77e1b8faf?family=Calisto+MT+W01);
+
 @keyframes fadeIn {
 	0% { opacity: 0; }
 	100% { opacity: 1; }
@@ -41,7 +43,7 @@ body {
 }
 
 .content p, ul{
-font-family: Calisto MT;
+font-family: "Calisto MT W01";
 font-size: 12px;
 letter-spacing: 1px;
 
@@ -133,7 +135,7 @@ h3{
 h4{
 	text-transform: capitalize;
 	font-size: 0.7em;
-	font-family: Calisto MT;
+	font-family: "Calisto MT W01";
 	font-weight: normal;
 	letter-spacing: 2px;
 }
