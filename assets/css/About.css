@@ -6,10 +6,14 @@ html{
 	background-position: center;
 	background-repeat: no-repeat;
   	background-attachment: fixed;
+	font-family: century-gothic, sans-serif;
+  	font-weight: 400;
+ 	font-style: normal;
 }
 
+
 @font-face {
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	src: url(./assets/font/gothic/gothic.woff);
  }
 
@@ -113,7 +117,7 @@ h2{
 	text-transform: uppercase;
 	font-size: 0.8em;
 	font-weight: bold;
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	letter-spacing: 2px;
 }
 
@@ -141,7 +145,7 @@ h4{
 
 
 p{
-	font-family: Century Gothic;
+	font-family: century-gothic;
 }
 
 .profile_pic img {
@@ -172,7 +176,7 @@ p{
 
 .text {
 	color: #eeb14f;
-	font-family: Century Gothic;
+	font-family: century-gothic;
 	font-size: 12px;
 	position: absolute;
 	text-align: center;
