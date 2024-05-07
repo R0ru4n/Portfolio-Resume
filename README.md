@@ -3,4 +3,4 @@ go to go to https://rawcdn.githack.com
 paste the index.html url to generate new url
 copy the url for production
 
-or just go https://rawcdn.githack.com/R0ru4n/Portfolio-Resume/a77c58f20b33365db694937c69b024e590069b45/index.html
+or just go https://rawcdn.githack.com/R0ru4n/Portfolio-Resume/bce71c7717f97c11fa1af32f399619a53fddb2de/index.html
