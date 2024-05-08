@@ -9,18 +9,40 @@
 	padding: 0;
 	font-family: century-gothic, sans-serif;
   	font-weight: auto;
+	scroll-behavior: smooth;
+}
+
+header{
+	background-color:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	background-color: black;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
 }
 
 @import url(https://db.onlinewebfonts.com/c/380d7d586b8246b3f65a92e2b82e65c4?family=Forte+W01);
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	/* For browser minimize media: */
 
 
 
 .logo img{
-	width: 105%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
 	float: center;
 	top:10%;
 	margin-left: -15%;
@@ -35,14 +57,14 @@
 }
 
 .menu{
-font-size: 15px;
+font-size: 12px;
 }
 
 .menu ul{
-width: 105%;
+width: auto;
 height: auto;
 margin-top: 20px;
-margin-left: 20px;
+margin-left: 10%;
 }
 
 .button{
@@ -56,19 +78,20 @@ margin-left: 20px;
 
 .about{
 	flex-direction: column;
-	padding: 40px;
+	padding: 30px;
 }
 
 .image img{
 	margin-left: 0px;
 }
 
-.wrapper{
-	width: 100px;
+.section-left {
+	transform: translate(2%, 10%);
 }
 
-.context{
-	transform: translate(15%, -20%);
+
+.section-right{
+	transform: translate(26%, 10%);
 }
 
 .context p{
@@ -96,12 +119,12 @@ margin-left: 20px;
 
 .format-one{
 	flex-direction: column;
-	transform: translate(-30%, -10%);
+	transform: translate(-28%, -10%);
 }
 
 .format-two{
 	flex-direction: column;
-	transform: translate(20%, -30%);
+	transform: translate(23%, -30%);
 }
 
 .format-three{
@@ -111,7 +134,7 @@ margin-left: 20px;
 
 .format-three .index{
 	flex-direction: column;
-	transform: translate(-1%, 5%);
+	transform: translate(-2%, 5%);
 }
 
 
@@ -138,8 +161,12 @@ margin-left: 20px;
 		font-size: 15px;
 	}
 	
-	.section-left, .section-right{
+	.section-left{
 		transform: translate(-10%, 10%);
+	}
+
+	.section-right{
+		transform: translate(11%, 10%);
 	}
 
 	.context h1, .context p{
@@ -147,8 +174,11 @@ margin-left: 20px;
 	}
 
 	.context h6{
-		font-size: 12px;
+		width: 80%;
+		font-size: 10px;
+		transform: translate(15%, 10%);
 	}
+
 
 	.format-one{
 		transform: translate(-47%, -10%);
@@ -157,6 +187,10 @@ margin-left: 20px;
 	.index h6, .menu{
 		font-size: 10px;
 	}
+
+	.menu ul{
+		margin-left: 8%;
+		}
 
 } /* end of mobile screen */
 
@@ -183,28 +217,11 @@ h3{
 
 audio{
 
-	width: 900px;
+	width: auto;
 	height: 30px;
 	margin-left: 1px;
 }
 
-
-header{
-	background-color:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-}
-
-body{
-	background-color: black;
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-}
 
 
 ul{
@@ -243,9 +260,12 @@ ul li.active a{
 .logo img{
 	position: absolute;
 	top:17%;
-	left: 43%;
+	left: 42%;
 	width: 200px;
 	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main{
@@ -301,8 +321,8 @@ ul li.active a{
 
 .button{
 	position: absolute;
-	top:62%;
-	left: 50%;
+	top:70%;
+	left:50%;
 	transform: translate(-50%, -50%);
 
 }
@@ -553,7 +573,7 @@ input[type=text], select, textarea {
   /* Create two columns that float next to eachother */
   .column {
 	float: left;
-	width: 40%;
+	width: auto;
 	margin-top: 50px;
   }
 
@@ -573,7 +593,7 @@ input[type=text], select, textarea {
   }
   
   /* Responsive layout - when the screen is less than 00px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
 	.contact-body, input[type=submit] {
 	  width: 100%;
 	  margin-top:0;
