@@ -290,6 +290,7 @@
     
     .section-left {
         flex: 2;
+        width: 100%;
     }
     
     
@@ -304,7 +305,7 @@
     
     .context{
         color: white;
-        padding: 50px;
+        padding: 30px;
         height: auto;
         width: 90%;
         margin: 50px auto;
@@ -314,7 +315,6 @@
     
     .context h1{
         font-size: auto;
-        font-weight: 200;
         text-shadow: 5px -5px 10px #6e5c5b;
     }
     
@@ -579,7 +579,7 @@
     .context h6{
             width: 80%;
             font-size: 10px;
-            transform: translate(15%, 10%);
+            transform: translate(5%, 10%);
         }
     
     
@@ -673,7 +673,8 @@
         
         
         .section-right{
-            transform: translate(20%, -15%);
+            transform: translate(-10%, -15%);
+            width: 50%;
         }
         
         .context p{
@@ -685,7 +686,8 @@
         }
         
         .context h6{
-            font-size: 20px;
+            font-size: 15px;
+            width: 90%;
         }
         
         /*---------------- end of about responsive in browser*/
