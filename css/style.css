@@ -455,16 +455,6 @@ a:hover{
 	transition: .5s ease;
 }
 
-.picture img {
-	float: center;
-	height: 150px;
-	width: 150px;
-	background-color: #fff;
-	border-radius: 100%;
-	margin-top: 100px;
-
-}
-
 
 .wrap {
 	margin: 50px auto;
@@ -477,7 +467,7 @@ a:hover{
 	flex: 2;
 }
 
-.format-one .picture img{
+.format-one .gallery img{
 	margin-left: 150px;
 }
 
@@ -498,7 +488,7 @@ a:hover{
 	flex: 3;
 }
 
-.format-three .picture img{
+.format-three .gallery img{
 	margin-left: -150px;
 }
 
@@ -528,6 +518,30 @@ a:hover{
 .index h6{
 	font-size: auto; 
 }
+
+.gallery img {
+	float: center;
+	height: 150px;
+	width: 150px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin-top: 100px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+	border-radius: 100%;
+}
+
+
+
+
+
 /* End of Background:-------------- */
 
 .contact{ /* Contact: */
