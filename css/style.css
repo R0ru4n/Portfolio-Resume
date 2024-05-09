@@ -1,16 +1,20 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: century-gothic, sans-serif;
+  	font-weight: auto;
+	scroll-behavior: smooth;
+}
+
+
 @font-face {
 	font-family: century-gothic;
 	src: url(./assets/font/gothic/gothic.woff);
  }
 
-*{
-	
-	margin: 0;
-	padding: 0;
-	font-family: century-gothic, sans-serif;
-  	font-weight: auto;
-	scroll-behavior: smooth;
-}
+
 
 header{
 	background-color:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
@@ -35,8 +39,7 @@ body{
 
 @media screen and (max-width: 500px) {
 	/* For browser minimize media: */
-
-
+	
 
 .logo img{
 	display: flex;
@@ -119,22 +122,28 @@ margin-left: 10%;
 
 .format-one{
 	flex-direction: column;
-	transform: translate(-28%, -10%);
+	transform: translate(-37%, -10%);
 }
 
 .format-two{
 	flex-direction: column;
-	transform: translate(23%, -30%);
+	transform: translate(20%, -30%);
+}
+
+.format-two .index{
+	flex-direction: column;
+	transform: translate(-1%, 5%);
 }
 
 .format-three{
 	flex-direction: column;
 	transform: translate(80%, -30%);
+	
 }
 
 .format-three .index{
 	flex-direction: column;
-	transform: translate(-2%, 5%);
+	transform: translate(0%, 5%);
 }
 
 
@@ -156,6 +165,8 @@ margin-left: 10%;
 } 
 
 @media screen and (max-width: 395px) {
+	
+
 	/* For browser minimize media: */
 	.title{
 		font-size: 15px;
@@ -181,16 +192,29 @@ margin-left: 10%;
 
 
 	.format-one{
-		transform: translate(-47%, -10%);
+		transform: translate(-62%, -10%);
 	}
 
+	.format-two{
+		transform: translate(12%, -10%);
+	}
+
+	.format-three{
+		transform: translate(90%, -10%);
+	}
+
+
 	.index h6, .menu{
-		font-size: 10px;
+		font-size: 9px;
 	}
 
 	.menu ul{
-		margin-left: 8%;
+		margin-left: 3%;
 		}
+
+	.button{
+		font-size: 9px;
+	}
 
 } /* end of mobile screen */
 
@@ -203,17 +227,6 @@ body {
 	animation: fadeIn 2s; 
 }
 
-h3{
-	float: right;
-	background-color: white;
-	font-family: Calisto MT;
-	color: black;
-	font-weight: normal;
-	font size: 9px;
-	margin top: -10px;
-	font-style: italic;
-	letter-spacing: 1px;
-}
 
 audio{
 
@@ -242,7 +255,7 @@ ul li a{
 	padding: 5px 20px;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
-	background-color: #eeb14f;
+	background-image: linear-gradient(120deg, #ecd360, #c93a16);
 	border-block: 4px solid black;
 	border-radius: 20px 50px;
 }
@@ -424,7 +437,7 @@ ul li.active a{
 
 
 .sheet{
-	background-color: #eeb14f;
+	background-image: linear-gradient(120deg, #ecd360, #c93a16);
 	border-radius: 5px;
 	color: white;
 	padding: 10px;
@@ -473,7 +486,7 @@ a:hover{
 
 .format-two .index{
 	margin: 110px;
-	margin-left:-200px;
+	margin-left:-110px;
 	margin-bottom:-120px;
 	display: flex;
 	flex-direction: column;
@@ -504,7 +517,8 @@ a:hover{
 
 
 .index h1{
-	font-size: auto; 
+	font-size: auto;
+	font-family: "Forte W01";
 }
 
 
@@ -573,7 +587,7 @@ input[type=text], select, textarea {
   /* Create two columns that float next to eachother */
   .column {
 	float: left;
-	width: auto;
+	width: 42%;
 	margin-top: 50px;
   }
 
@@ -603,6 +617,12 @@ input[type=text], select, textarea {
 		width: auto;
 		margin-right: 30px;
 	}
+	
+	.column img{
+		transform: translate(27%, 0%);
+	
+	  }
+
   }
 
 /* End of Contact:------------ */

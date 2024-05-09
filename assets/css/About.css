@@ -101,7 +101,7 @@ letter-spacing: 1px;
 
 .section-left {
 	flex: 2;
-	background-color: #eeb14f; 
+	background-image: linear-gradient(120deg, #ecd360, #c93a16);
 }
 
 .section-left ul {
@@ -190,14 +190,16 @@ p{
 	position: absolute;
 	background-color: #000;
 	opacity: 100;
-	transition: .5s ease;
+	transition: .2s ease;
+	border-radius: 20px 50px;
   }
 
 .github:hover {
 	position: absolute;
 	background-color: #000;
 	opacity: 100;
-	transition: .5s ease;
+	transition: .2s ease;
+	border-radius: 20px 50px;
   }
 
   
